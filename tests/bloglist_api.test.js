@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt')
 const User = require('../models/user')
 const Blog = require('../models/blog')
 
-test('', () => {
+test('', async () => {
   return true
 })
 
