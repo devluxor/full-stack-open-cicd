@@ -6,8 +6,6 @@
 app = "bloglist-luke"
 primary_region = "mad"
 
-[deploy]
-
 [processes]
   app = "node index.js"
 
