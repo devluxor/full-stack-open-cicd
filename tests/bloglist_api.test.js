@@ -7,9 +7,6 @@ const bcrypt = require('bcrypt')
 const User = require('../models/user')
 const Blog = require('../models/blog')
 
-test('', async () => {
-  return true
-})
 
 // beforeAll(async () => {
 //   await User.deleteMany({})
@@ -204,3 +201,7 @@ test('', async () => {
 
 //   await mongoose.connection.close()
 // })
+
+test('', async () => {
+  return true
+})
