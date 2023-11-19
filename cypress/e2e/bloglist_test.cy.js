@@ -25,6 +25,5 @@ describe('Pokedex', function() {
     cy.get('button.delete').click()
     cy.get('.bloglist').find('.blog').should('have.length', 0)
     cy.contains('logout').click()
-    cy.contains('log in').click()
   })
 })
